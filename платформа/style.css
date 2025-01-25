@@ -73,3 +73,7 @@ body {
     transform: translateY(0px);
   }
 }
+
+.text_1 {
+	 text-decoration: none;
+ }

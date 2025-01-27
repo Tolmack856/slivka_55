@@ -1,5 +1,12 @@
 body { 
-    background-color: #02caf2; 
+	background: url(https://avatars.mds.yandex.net/i?id=d143a11be8b2eb2a37a655cb2b8b9024_l-5310919-images-thumbs&n=13);
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
 }
 .photos {
    width: 10em;

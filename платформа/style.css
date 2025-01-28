@@ -82,3 +82,8 @@ body {
  .text_2 {
 	 color: #ffa500;
  }
+ 
+  .new_01 {
+	color: red;
+	text-shadow: 5px 5px 5px #000;	
+  }

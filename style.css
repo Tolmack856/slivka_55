@@ -3,9 +3,8 @@ body {
 }
 .photos {
    width: 10em;
-    -webkit-filter: blur(4px);  
-    filter: blur(4px);
- 
+    -webkit-filter: blur(2px);  
+    filter: blur(2px);
  }
 
 ul.horizontal {

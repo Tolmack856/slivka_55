@@ -1,60 +1,89 @@
-body { 
-    background-color: #008000; 
+body {
+  background-color: #560319;
 }
+
 .photos {
-   width: 10em;
-    -webkit-filter: blur(2px);  
-    filter: blur(2px);
+  width: 10em;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: absolute;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #1ded77;
+  color: #000000;
+  font-size: 17px;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn-white::after {
+  background-color: #3705ff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+ .text_1 {
+	 text-decoration: none;
+	 color: #ffd700;
  }
-
-ul.horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-ul.horizontal li {
-    float: left;
-}
-
-ul.horizontal li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-ul.horizontal li a:hover {
-    background-color: #111;
-}
-
-
-
-
-/* vertical example below */
-
-
-ul.vertical {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: #f1f1f1;
-}
-
-ul.vertical li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color on hover */
-ul.vertical li a:hover {
-    background-color: #555;
-    color: white;
-}
+ 
+ .text_2 {
+	 color: #ffa500;
+ }
+ 
+  .new_01 {
+	color: red;
+	text-shadow: 5px 5px 5px #000;	
+  }

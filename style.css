@@ -1,5 +1,5 @@
 body { 
-    background-color: #008000;
+    background-color: #4b0082;
 }
 .photos {
    width: 10em;
@@ -43,7 +43,7 @@ ul.vertical {
     margin: 0;
     padding: 0;
     width: 250px;
-    background-color: #f1f1f1;
+    background-color: #B8860B;
 }
 
 ul.vertical li a {
@@ -55,6 +55,6 @@ ul.vertical li a {
 
 /* Change the link color on hover */
 ul.vertical li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: #00FA9A;
+    color: #0000FF;
 }

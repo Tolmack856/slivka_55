@@ -3,15 +3,13 @@ body {
 }
 
 .photos {
-   width: 1em;
-    /*-webkit-filter: blur(2px);  
-    filter: blur(2px);*/
- }
+   width: 1.10em;
+}
  
   .text1 {
 	  text-decoration: none;
 	  color: indigo;
-  }
+}
  
   .button-85 {
   padding: 0.6em 2em;

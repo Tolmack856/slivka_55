@@ -6,6 +6,10 @@ body {
     /*-webkit-filter: blur(2px);  
     filter: blur(2px);*/
  }
+ 
+ .version {
+	color: #fff;
+}
 
 a.button24 {
     display: inline-block;

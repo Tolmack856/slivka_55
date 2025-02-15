@@ -77,7 +77,7 @@ body {
 
 
  .text_1 {
-	 text-decoration: none;
+	 /*text-decoration: none;*/
 	 color: #ffd700;
  }
  
@@ -94,3 +94,21 @@ body {
 	color: #00ff00;
 	text-shadow: 4px 4px 4px #000;	
   }
+  
+  .like-container {
+  display: flex;
+  align-items: center;
+}
+ 
+.like-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 8px;
+}
+ 
+.like-count {
+  font-size: 18px;
+}

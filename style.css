@@ -7,6 +7,11 @@ body {
     filter: blur(2px);*/
  }
  
+ 
+.photos_01 {
+   width: 1.0em;
+}
+ 
  .version {
 	color: #fff;
 }
@@ -80,3 +85,7 @@ input.button4:active {
 @keyframes pulsate {
   50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
 }
+
+ .new_1 {
+	 color: yellow;
+ }

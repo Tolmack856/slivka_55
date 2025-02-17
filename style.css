@@ -1,5 +1,13 @@
 body { 
-    background-color: indigo;
+    /*background-color: indigo;*/
+	 background: url(https://img3.akspic.ru/previews/3/7/0/0/8/180073/180073-smartfon-lev-koshachih-pantera-morda-500x.jpg);
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
 }
 .photos {
    width: 10em;

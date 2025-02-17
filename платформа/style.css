@@ -1,5 +1,12 @@
 body {
-  background-color: #560319;
+  	background: url(https://img2.akspic.ru/previews/7/6/0/9/7/179067/179067-avtomobilnyj-legkovyye_avtomobili-sportkar-shina-koleso-500x.jpg);
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
 }
 
 .photos {

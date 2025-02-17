@@ -83,7 +83,7 @@ body {
 }
 
 .button-90 {
-  color: #fff;
+  color: yellow;
   padding: 15px 25px;
   border-radius: 100px;
   background-color: indigo;
@@ -100,6 +100,10 @@ body {
 
   cursor: pointer;
 }
+ 
+ .text_1 {
+	 color: white;
+ }
  
  .text_2 {
 	 color: #ffa500;

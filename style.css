@@ -17,7 +17,7 @@ body {
  
 .photos_01 {
    width: 1.0em;
-   /*<img class="photos_01" src="https://cdn-icons-png.flaticon.com/128/1156/1156949.png"*/
+   /*<img class="photos_01" src="#"*/
 }
  
  .version {
@@ -57,6 +57,7 @@ a.button25 {
 }
 a.button25:active { background: linear-gradient(#00ffff, #00008b) #0000ff; }
 
+
 .button-62 {
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
   border: 0;
@@ -86,6 +87,7 @@ a.button25:active { background: linear-gradient(#00ffff, #00008b) #0000ff; }
 .button-62:not([disabled]):hover {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
 }
+
 
  .new_1 {
 	 color: yellow;

@@ -5,10 +5,25 @@ body {
 .photos {
    width: 1.10em;
 }
+
+.photos1 {
+   width: 1.40em;
+}
  
-  .text1 {
+ .text1 {
 	  text-decoration: none;
 	  color: indigo;
+}
+
+ .text2 {
+	  text-decoration: none;
+	  color: blue;
+}
+
+ .text3 {
+	  color: chartreuse;
+	-webkit-text-stroke-width: 0.50px;
+	-webkit-text-stroke-color: darkgreen;
 }
  
   .button-85 {
